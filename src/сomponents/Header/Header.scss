@@ -1,0 +1,61 @@
+.header {
+  padding: 12px 0;
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  &__logo {
+    cursor: pointer;
+    @media (max-width: 500px) {
+      width: 100px;
+    }
+  }
+  &__text {
+    font-size: 12px;
+    line-height: 18px;
+    @media (max-width: 500px) {
+      display: none;
+    }
+  }
+  &__menu {
+    @media (max-width: 854px) {
+      display: none;
+    }
+    display: flex;
+    align-items: center;
+    &-item {
+      font-size: 12px;
+      line-height: 18px;
+      &:not(:last-child) {
+        margin-right: 35px;
+      }
+      &--link{
+        &:hover {
+          color: #E2B024;
+        }
+      }
+      &--icon {
+        stroke: #fff;
+        &:hover {
+          stroke: #E2B024;
+        }
+      }
+    }
+  }
+
+}
+
+#burger {
+  @media (max-width: 854px) {
+    display: block;
+  }
+  display: none;
+  cursor: pointer;
+  fill: #ffffff;
+}
+
+#burger:hover {
+  fill: #E2B024;
+}

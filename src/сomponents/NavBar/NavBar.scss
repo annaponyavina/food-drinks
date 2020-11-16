@@ -1,0 +1,17 @@
+.nav {
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    &__item {
+      font-family: 'Chocolate Box Pro', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 9px;
+    }
+  }
+}

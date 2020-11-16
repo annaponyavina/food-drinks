@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Chocolate Box Pro';
+  src: url('/сomponents/generic/fonts/ChocolateBoxPro.eot');
+  src: local('Chocolate Box Pro'), local('ChocolateBoxPro'),
+  url('/сomponents/generic/fonts/ChocolateBoxPro.eot?#iefix') format('embedded-opentype'),
+  url('/сomponents/generic/fonts/ChocolateBoxPro.woff2') format('woff2'),
+  url('/сomponents/generic/fonts/ChocolateBoxPro.woff') format('woff'),
+  url('/сomponents/generic/fonts/ChocolateBoxPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PoppinsLight';
+  src: url("./сomponents/generic/fonts/Poppins-Light.ttf");
+}
+
+
+@font-face {
+  font-family: 'PoppinsRegular';
+  src: url("./сomponents/generic/fonts/Poppins-Regular.ttf");
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #120D01;
+  //font-family: 'PoppinsLight', sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  //font-family: 'ChocolateBoxRegular', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input, button {
+  font: inherit;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
