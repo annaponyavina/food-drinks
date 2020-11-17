@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/food-drinks/static/css/main.3181cd1a.chunk.css",
+    "main.js": "/food-drinks/static/js/main.9676ee62.chunk.js",
+    "main.js.map": "/food-drinks/static/js/main.9676ee62.chunk.js.map",
+    "runtime-main.js": "/food-drinks/static/js/runtime-main.4c3e4711.js",
+    "runtime-main.js.map": "/food-drinks/static/js/runtime-main.4c3e4711.js.map",
+    "static/js/2.f58a9932.chunk.js": "/food-drinks/static/js/2.f58a9932.chunk.js",
+    "static/js/2.f58a9932.chunk.js.map": "/food-drinks/static/js/2.f58a9932.chunk.js.map",
+    "static/js/3.807cbf0e.chunk.js": "/food-drinks/static/js/3.807cbf0e.chunk.js",
+    "static/js/3.807cbf0e.chunk.js.map": "/food-drinks/static/js/3.807cbf0e.chunk.js.map",
+    "index.html": "/food-drinks/index.html",
+    "static/css/main.3181cd1a.chunk.css.map": "/food-drinks/static/css/main.3181cd1a.chunk.css.map",
+    "static/js/2.f58a9932.chunk.js.LICENSE.txt": "/food-drinks/static/js/2.f58a9932.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/food-drinks/static/media/Poppins-Regular.8081832f.ttf",
+    "static/media/icons.60f7ef35.svg": "/food-drinks/static/media/icons.60f7ef35.svg",
+    "static/media/logo.6b552daa.svg": "/food-drinks/static/media/logo.6b552daa.svg",
+    "static/media/main.5d347d1f.png": "/food-drinks/static/media/main.5d347d1f.png",
+    "static/media/wine.24b3c943.png": "/food-drinks/static/media/wine.24b3c943.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c3e4711.js",
+    "static/js/2.f58a9932.chunk.js",
+    "static/css/main.3181cd1a.chunk.css",
+    "static/js/main.9676ee62.chunk.js"
+  ]
+}
