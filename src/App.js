@@ -1,5 +1,5 @@
 import React from 'react'
-import {Header, NavBar, Main, New} from './сomponents'
+import {Header, NavBar, Main, New, Product, Reviews, Gallery} from './сomponents'
 import './App.scss';
 
 function App() {
@@ -9,6 +9,9 @@ function App() {
         <NavBar/>
         <Main/>
         <New/>
+        <Product/>
+        <Reviews/>
+        <Gallery/>
       </>
   );
 }

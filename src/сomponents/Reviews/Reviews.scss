@@ -1,0 +1,47 @@
+.reviews {
+  padding: 150px 0;
+  background-image: url("./assets/reviews-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  &__title {
+    margin-bottom: 58px;
+  }
+}
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &__img {
+    max-width: 156px;
+  }
+  &__name {
+    font-family: "PoppinsBold", sans-serif;
+    margin: 30px 0;
+    font-size: 24px;
+    line-height: 175.3%;
+  }
+  &__description {
+    font-size: 16px;
+    line-height: 175.3%;
+    max-width: 900px;
+    text-align: center;
+  }
+}
+.pag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  &__item {
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 8px;
+    &--active {
+      background-color: #E2B024;
+    }
+  }
+}

@@ -26,6 +26,11 @@
   src: url("/fonts/Poppins-Medium.ttf");
 }
 
+@font-face {
+  font-family: 'PoppinsBold';
+  src: url("/fonts/Poppins-Bold.ttf");
+}
+
 html {
   box-sizing: border-box;
 }
@@ -101,4 +106,13 @@ input::-webkit-inner-spin-button {
   text-transform: uppercase;
   padding-bottom: 4px;
   border-bottom: 1px solid #E2B024;
+}
+
+.title {
+  font-size: 48px;
+  line-height: 28px;
+  text-align-last: center;
+  &__yellow {
+    color: #E2B024;
+  }
 }
