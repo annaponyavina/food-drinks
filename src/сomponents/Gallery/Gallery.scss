@@ -1,3 +1,39 @@
 .gallery {
   padding: 150px;
+  &__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__item {
+    width: 300px;
+    height: 480px;
+    position: relative;
+    padding: 25px;
+  }
+  &__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  &-info {
+    position: absolute;
+    bottom: 0;
+    &__title {
+      font-family: 'Chocolate Box Pro', serif;
+      font-size: 24px;
+      line-height: 14px;
+    }
+    &__price {
+      font-family: 'PoppinsBold', sans-serif;
+      font-size: 36px;
+      line-height: 54px;
+      margin-bottom: 15px;
+    }
+  }
 }

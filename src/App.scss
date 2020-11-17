@@ -116,3 +116,20 @@ input::-webkit-inner-spin-button {
     color: #E2B024;
   }
 }
+
+.pag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  &__item {
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 8px;
+    &--active {
+      background-color: #E2B024;
+    }
+  }
+}

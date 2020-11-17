@@ -1,0 +1,52 @@
+.events {
+  &__title {
+    margin-bottom: 58px;
+  }
+}
+.card {
+  width: 100%;
+  max-height: 410px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 150px;
+  &-content {
+    display: flex;
+  }
+  &-img {
+    max-width: 370px;
+    &__bg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &-info {
+    padding: 63px 30px;
+    background-color: #211F1B;
+    width: 100%;
+    &__name {
+      font-family: "PoppinsBold", sans-serif;
+      font-size: 24px;
+      line-height: 36px;
+      margin-bottom: 8px;
+    }
+    &__date {
+      font-family: "PoppinsRegular", sans-serif;
+      font-size: 18px;
+      line-height: 27px;
+    }
+    &__description {
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 27px;
+      max-width: 500px;
+      margin: 45px 0;
+    }
+  }
+  &-button {
+    &__prev{
+    }
+    &__next {
+    }
+  }
+}
