@@ -1,17 +1,30 @@
 .nav {
+  @media (max-width: 854px) {
+    display: none;
+  }
   &__content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 22px 0;
+    padding: 22px 0 16px;
     border-top: 1px solid rgba(255, 255, 255, 0.6);
     border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-    &__item {
-      font-family: 'Chocolate Box Pro', sans-serif;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 9px;
+    @media (max-width: 876px) {
+      flex-wrap: wrap;
+    }
+  }
+  &__item {
+    font-family: 'Chocolate Box Pro', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 9px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
+    &:hover {
+      color: #E2B024;
+      border-bottom: 1px solid #E2B024;
     }
   }
 }
+

@@ -1,25 +1,31 @@
 @font-face {
   font-family: 'Chocolate Box Pro';
-  src: url('/сomponents/generic/fonts/ChocolateBoxPro.eot');
+  src: url('/fonts/ChocolateBoxPro.eot');
   src: local('Chocolate Box Pro'), local('ChocolateBoxPro'),
-  url('/сomponents/generic/fonts/ChocolateBoxPro.eot?#iefix') format('embedded-opentype'),
-  url('/сomponents/generic/fonts/ChocolateBoxPro.woff2') format('woff2'),
-  url('/сomponents/generic/fonts/ChocolateBoxPro.woff') format('woff'),
-  url('/сomponents/generic/fonts/ChocolateBoxPro.ttf') format('truetype');
+  url('/fonts/ChocolateBoxPro.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/ChocolateBoxPro.woff2') format('woff2'),
+  url('/fonts/ChocolateBoxPro.woff') format('woff'),
+  url('/fonts/ChocolateBoxPro.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'PoppinsLight';
-  src: url("./сomponents/generic/fonts/Poppins-Light.ttf");
+  src: url("/fonts/Poppins-Light.ttf");
 }
 
 
 @font-face {
   font-family: 'PoppinsRegular';
-  src: url("./сomponents/generic/fonts/Poppins-Regular.ttf");
+  src: url("/fonts/Poppins-Regular.ttf");
 }
+
+@font-face {
+  font-family: 'PoppinsMedium';
+  src: url("/fonts/Poppins-Medium.ttf");
+}
+
 html {
   box-sizing: border-box;
 }
@@ -27,13 +33,13 @@ html {
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  //box-sizing: inherit;
 }
 
 body {
   margin: 0;
   background-color: #120D01;
-  //font-family: 'PoppinsLight', sans-serif;
+  font-family: 'PoppinsLight', sans-serif;
   font-size: 18px;
   color: #fff;
 }
@@ -56,7 +62,7 @@ ul {
 }
 
 h1, h2, h3 {
-  //font-family: 'ChocolateBoxRegular', sans-serif;
+  font-family: 'Chocolate Box Pro', serif;
   padding: 0;
   margin: 0;
 }
@@ -69,6 +75,7 @@ p {
 button {
   outline: none;
   cursor: pointer;
+  font-family: 'PoppinsMedium', sans-serif;
 }
 
 input, button {
@@ -84,4 +91,14 @@ input::-webkit-inner-spin-button {
   max-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.link {
+  font-family: 'Chocolate Box Pro', serif;
+  font-size: 16px;
+  line-height: 9px;
+  color: #E2B024;
+  text-transform: uppercase;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #E2B024;
 }

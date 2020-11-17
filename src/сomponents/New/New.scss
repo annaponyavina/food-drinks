@@ -1,0 +1,95 @@
+.new {
+  background-color: #211F1B;
+  padding: 140px 0;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__info {
+    max-width: 527px;
+  }
+  &__category {
+    font-family: 'PoppinsRegular', sans-serif;
+    font-size: 20px;
+    line-height: 170%;
+    letter-spacing: 0.35em;
+  }
+  &__title {
+    font-size: 74px;
+    line-height: 43px;
+    color: #E2B024;
+    margin-top: 47px;
+    margin-bottom: 12px;
+  }
+  &__text {
+    font-size: 36px;
+    line-height: 170%;
+  }
+  &__description {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 52px;
+  }
+  &__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 63px;
+  }
+  &__button {
+    font-family: 'PoppinsMedium', sans-serif;
+    padding: 22px 52px;
+    border: none;
+    font-weight: 500;
+    font-size: 24px;
+    &--yellow {
+      background-color: #E2B024;
+      color: #120D01;
+    }
+    &--transparent {
+      background-color: transparent;
+      border: 1px solid #E2B024;
+      color: #fff;
+    }
+  }
+  &__img {
+    position: relative;
+  }
+}
+
+.slider {
+  &-button {
+    &__prev, &__next {
+      position: absolute;
+      border: none;
+      background-color: transparent;
+      font-size: 20px;
+      line-height: 30px;
+      color: #FFFFFF;
+      text-decoration: underline;
+    }
+    &__prev {
+      left: 0;
+      transform: translate(-40%, 694%);
+
+    }
+    &__next {
+      right: 0;
+      transform: translate(40%, 694%);
+    }
+  }
+  &__bg {
+  }
+  &__wine-img {
+    max-width: 210px;
+    position: absolute;
+    transform: translate(-185%, -17%);
+  }
+}
+
+
+
+
+
+

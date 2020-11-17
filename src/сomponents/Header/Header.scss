@@ -13,6 +13,7 @@
     }
   }
   &__text {
+    font-family: 'PoppinsRegular', sans-serif;
     font-size: 12px;
     line-height: 18px;
     @media (max-width: 500px) {
@@ -32,6 +33,7 @@
         margin-right: 35px;
       }
       &--link{
+        font-family: 'PoppinsRegular', sans-serif;
         &:hover {
           color: #E2B024;
         }

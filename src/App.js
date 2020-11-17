@@ -1,6 +1,5 @@
 import React from 'react'
-import {Header} from "./сomponents/Header/Header"
-import {NavBar} from "./сomponents/NavBar/NavBar"
+import {Header, NavBar, Main, New} from './сomponents'
 import './App.scss';
 
 function App() {
@@ -8,6 +7,8 @@ function App() {
       <>
         <Header/>
         <NavBar/>
+        <Main/>
+        <New/>
       </>
   );
 }

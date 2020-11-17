@@ -1,0 +1,37 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &__title {
+    margin-top: 190px;
+    font-size: 24px;
+    line-height: 14px;
+    max-width: 745px;
+    text-align: center;
+    font-family: "Chocolate Box Pro", serif;
+    &-large {
+      margin-top: 32px;
+      font-size: 96px;
+      line-height: 56px;
+      margin-bottom: 24px;
+      &--yellow {
+        color: #E2B024;
+      }
+    }
+  }
+  &__description {
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    max-width: 745px;
+    margin-bottom: 35px;
+  }
+  &__link {
+    margin-bottom: 29px;
+  }
+  &__img {
+    max-width: 471px;
+  }
+
+}
