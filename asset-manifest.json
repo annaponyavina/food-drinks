@@ -1,27 +1,37 @@
 {
   "files": {
-    "main.css": "/food-drinks/static/css/main.3181cd1a.chunk.css",
-    "main.js": "/food-drinks/static/js/main.9676ee62.chunk.js",
-    "main.js.map": "/food-drinks/static/js/main.9676ee62.chunk.js.map",
-    "runtime-main.js": "/food-drinks/static/js/runtime-main.4c3e4711.js",
-    "runtime-main.js.map": "/food-drinks/static/js/runtime-main.4c3e4711.js.map",
+    "main.css": "/food-drinks/static/css/main.eeb18d95.chunk.css",
+    "main.js": "/food-drinks/static/js/main.bed651d6.chunk.js",
+    "main.js.map": "/food-drinks/static/js/main.bed651d6.chunk.js.map",
+    "runtime-main.js": "/food-drinks/static/js/runtime-main.efe0dcae.js",
+    "runtime-main.js.map": "/food-drinks/static/js/runtime-main.efe0dcae.js.map",
     "static/js/2.f58a9932.chunk.js": "/food-drinks/static/js/2.f58a9932.chunk.js",
     "static/js/2.f58a9932.chunk.js.map": "/food-drinks/static/js/2.f58a9932.chunk.js.map",
-    "static/js/3.807cbf0e.chunk.js": "/food-drinks/static/js/3.807cbf0e.chunk.js",
-    "static/js/3.807cbf0e.chunk.js.map": "/food-drinks/static/js/3.807cbf0e.chunk.js.map",
+    "static/js/3.769617bd.chunk.js": "/food-drinks/static/js/3.769617bd.chunk.js",
+    "static/js/3.769617bd.chunk.js.map": "/food-drinks/static/js/3.769617bd.chunk.js.map",
     "index.html": "/food-drinks/index.html",
-    "static/css/main.3181cd1a.chunk.css.map": "/food-drinks/static/css/main.3181cd1a.chunk.css.map",
+    "static/css/main.eeb18d95.chunk.css.map": "/food-drinks/static/css/main.eeb18d95.chunk.css.map",
     "static/js/2.f58a9932.chunk.js.LICENSE.txt": "/food-drinks/static/js/2.f58a9932.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/food-drinks/static/media/Poppins-Regular.8081832f.ttf",
     "static/media/icons.60f7ef35.svg": "/food-drinks/static/media/icons.60f7ef35.svg",
     "static/media/logo.6b552daa.svg": "/food-drinks/static/media/logo.6b552daa.svg",
     "static/media/main.5d347d1f.png": "/food-drinks/static/media/main.5d347d1f.png",
+    "static/media/product1.770a7282.png": "/food-drinks/static/media/product1.770a7282.png",
+    "static/media/product2.b27dae17.png": "/food-drinks/static/media/product2.b27dae17.png",
+    "static/media/product3.dd09e433.png": "/food-drinks/static/media/product3.dd09e433.png",
+    "static/media/product4.d80a2aa6.png": "/food-drinks/static/media/product4.d80a2aa6.png",
+    "static/media/product5.d3cc3a3b.png": "/food-drinks/static/media/product5.d3cc3a3b.png",
+    "static/media/product6.aa3b499d.png": "/food-drinks/static/media/product6.aa3b499d.png",
+    "static/media/product7.1c452e29.png": "/food-drinks/static/media/product7.1c452e29.png",
+    "static/media/product8.efdc4d7d.png": "/food-drinks/static/media/product8.efdc4d7d.png",
+    "static/media/Reviews.scss": "/food-drinks/static/media/reviews-bg.d1a1b60d.png",
+    "static/media/user.0d6ea505.png": "/food-drinks/static/media/user.0d6ea505.png",
     "static/media/wine.24b3c943.png": "/food-drinks/static/media/wine.24b3c943.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4c3e4711.js",
+    "static/js/runtime-main.efe0dcae.js",
     "static/js/2.f58a9932.chunk.js",
-    "static/css/main.3181cd1a.chunk.css",
-    "static/js/main.9676ee62.chunk.js"
+    "static/css/main.eeb18d95.chunk.css",
+    "static/js/main.bed651d6.chunk.js"
   ]
 }
