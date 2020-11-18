@@ -1,5 +1,5 @@
 import React from 'react'
-import {Header, NavBar, Main, New, Product, Reviews, Gallery, Events, Contact} from './сomponents'
+import {Header, NavBar, Main, New, Product, Reviews, Gallery, Events, Contact, Newsletter, Footer} from './сomponents'
 import './App.scss';
 
 function App() {
@@ -14,6 +14,8 @@ function App() {
         <Gallery/>
         <Events/>
         <Contact/>
+        <Newsletter/>
+        <Footer/>
       </>
   );
 }
